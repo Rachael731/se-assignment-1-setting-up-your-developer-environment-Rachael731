@@ -15,14 +15,61 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+
+   I had already installed VS Code while working on my Week 1 assignment and the installation was straightforward. I did not have any challenges intsallling it. However, when submitting my assignment, I had problems with "git commit" command, the changes I made were not reflected. I had an error and I tried solving the issue through Google but I ended up having creating more commands so I just used the save tab on VS Code. Kindly point out what mistake I might have done.
+
+
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+
+   I had also installed github in Week 1 and I have not had a problem using it.
+
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+
+   
+    Python was laready installed in my machine as well before I started this course as I was using it to practice for my school work.
+
+
+    Download the SQL server from https://dev.mysql.com/downloads/windows/installer/ . (Pick Windows 8.0.37 and choose the 296MB file).
+
+**SQL Installation**
+Download the SQL server from https://dev.mysql.com/downloads/windows/installer/ . (Pick Windows 8.0.37 and choose the 296MB file).
+
+Open the download and allow it to make changes to the computer.
+
+Select “Server” option as the setup type.
+
+Pick the most recent version and execute.
+
+On the Type & Networking section, let the Name Pipe and Shared Memory remain as ‘MYSQL’. On the Config type, choose ‘Development Computer’. 
+
+Check ‘Show Advanced and Logging Options’.
+
+At the Authentication Method step, pick ‘Minimum Access to all Users’ and create a strong password.
+
+Pick default options in the Windows Service.
+
+Allow full access to the user running the server and the administrator groups only.
+
+Uncheck ‘Slow Query Log’ and ‘Binary Log’ to get rid of the errors.
+
+Leave the default settings on the Advanced Options and click ‘Next’.
+
+Apply the Configuration by executing- Leave settings on default.
+
+Copy "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld" –console and run command on Command Line.
+
+Shut down by running the command "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqladmin" -u root shutdown. 
+
+**Problems encountered in MYSQL installation**
+The shutdown command did not work for me so I used the following instead "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqladmin" -u root -p shutdown
+
+I was prompted to put my password and the program was shut down.
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
@@ -35,6 +82,8 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+
+
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
